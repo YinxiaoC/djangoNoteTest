@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Base</title>
+</head>
+<body>
+    <p>
+        <a href="{% url 'note:index' %}">note</a>
+        <a href="{% url 'note:topics' %}">Topics</a>
+    </p>
+{% block content %}
+
+{% endblock content %}
+
+</body>
+</html>
